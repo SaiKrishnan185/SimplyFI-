@@ -1,4 +1,18 @@
 def ind_currency(number):
+    """
+        Converts an integer value into Indian currency notation.
+
+        Parameters:
+            number (int): The integer value to be converted.
+
+        Returns:
+            str: Indian currency notation of the input integer.
+
+        Example:
+            >>> ind_currency(1234)
+            '1,234'
+    """
+
     number_string = str(number)
     length = len(number_string)
 
@@ -12,7 +26,6 @@ def ind_currency(number):
         result = ""
         # Iterating in reverse order for comma insertion
         for i in range(length):
-            # Checking for comma insertion
             if i % 2 == 0 and i != 0:
                 result = ',' + result
             result = new_string[length - i - 1] + result
@@ -21,38 +34,6 @@ def ind_currency(number):
 
 
 if __name__ == '__main__':
-
-    # Test Set
-    # test = [{
-    #     'input': 0,
-    #     'output': '0'
-    # }, {
-    #     'input': 1,
-    #     'output': '1'
-    # }, {
-    #     'input': 5,
-    #     'output': '5'
-    # }, {
-    #     'input': 55,
-    #     'output': '55'
-    # }, {
-    #     'input': 123,
-    #     'output': '123'
-    # }, {
-    #     'input': 1234,
-    #     'output': '1,234'
-    # }, {
-    #     'input': 12345,
-    #     'output': '12,345'
-    # }, {
-    #     'input': 123456,
-    #     'output': '1,23,456'
-    # }]
-    #
-    # for testValue in test:
-    #     currency = ind_currency(testValue['input'])
-    #     print(f'Input = { testValue["input"] }  Final Output = {currency}')
-
     input_value = int(input('Enter value to convert : '))
     currency = ind_currency(input_value)
     print(currency)
