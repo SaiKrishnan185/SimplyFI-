@@ -3,8 +3,8 @@
 1. Write a python code for converting integer values to Indian currency notations, without
 using the currency libraries
 
-      Algorithm in CurrencyConversion.py
-      Detail in CurrencyConversionDetail.txt
+            Algorithm in CurrencyConversion.py
+            Detail in CurrencyConversionDetail.txt
 
 2.You won’t get caught if you hide behind someone.” Sang-Woo advises Gi-Hun to hide behind someone to avoid getting shot.
 Gi-Hun follows Sang-Woo's advice and hides behind Ali, who saved his life earlier. Gi-Hun and Ali both have the same height, K. Many players saw this trick and also started hiding behind Ali. Now, there are N players     
