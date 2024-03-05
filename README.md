@@ -11,4 +11,4 @@ using the currency libraries
   standing between Gi-Hun and Ali in a straight line, with the ith player having height Hi. Gi-Hun wants to know the minimum number of players who need to get shot so that Ali is visible in his line of sight.
 
       Algorithm in LifeSaver.py
-      Detail in LifeSaverDetail.py
+      Detail in LifeSaverDetail.txt
