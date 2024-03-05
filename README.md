@@ -3,7 +3,7 @@
 1. Write a python code for converting integer values to Indian currency notations, without
 using the currency libraries
 
-  Algorithm in CurrencyConversion.py
+      Algorithm in CurrencyConversion.py
       Detail in CurrencyConversionDetail.txt
 
 2.You won’t get caught if you hide behind someone.” Sang-Woo advises Gi-Hun to hide behind someone to avoid getting shot.
