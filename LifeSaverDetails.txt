@@ -1,0 +1,7 @@
+Function life_saver implementation
+(This function counts the number of players taller than the shooting height and prints the result.)
+
+NK : A list containing two elements, where NK[0] represents the total number of players, and NK[1] represents the required shooting height.
+player_heights : Heights of the players, provided as a list.
+
+Prints the number of players to be shot.
