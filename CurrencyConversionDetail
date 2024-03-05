@@ -1,8 +1,0 @@
-Function ind_currency implementation
-(Inserts commas at appropriate positions to represent thousands, lakhs, etc, as per the Indian numbering system.)
-
-  It converts the input integer to a string.
-  If the length of the string is less than or equal to 3, it returns the string representation as is.
-  If the length is greater than 3, it separates the last 3 digits from the rest of the string.
-  It iterates over the remaining part of the string in reverse order and inserts commas every two digits.
-  Then it adds back the last 3 digits and returns the result.
